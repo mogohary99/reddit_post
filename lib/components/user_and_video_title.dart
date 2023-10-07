@@ -34,7 +34,7 @@ class UserAndVideoTitle extends StatelessWidget {
             );
           },
           child: SizedBox(
-            width: context.size!.width - 80,
+            width: MediaQuery.of(context).size.width - 80,
             child:  Text(
               post.title,
               style: context.bodyMedium,
